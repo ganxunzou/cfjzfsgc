@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/fwxm/fwxm",
+    "pages/about/about",
+    "pages/cpjs/cpjs",
+    "pages/gcal/gcal",
+    "pages/fwcn/fwcn",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ylcp/ylcp"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2AA11E",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#1D7412",
+    "selectedColor": "#FFF",
+    "borderStyle": "black",
+    "backgroundColor": "#2AA11E",
+    "list": [
+      {
+        "selectedIconPath": "imgs/fwxm-s.png",
+        "iconPath": "imgs/fwxm.png",
+        "pagePath": "pages/fwxm/fwxm",
+        "text": "服务项目"
+      },
+      {
+        "selectedIconPath": "imgs/cpjs-s.png",
+        "iconPath": "imgs/cpjs.png",
+        "pagePath": "pages/cpjs/cpjs",
+        "text": "产品介绍"
+      },
+      {
+        "selectedIconPath": "imgs/gcal-s.png",
+        "iconPath": "imgs/gcal.png",
+        "pagePath": "pages/gcal/gcal",
+        "text": "工程案例"
+      },
+      
+      {
+        "selectedIconPath": "imgs/about-s.png",
+        "iconPath": "imgs/about.png",
+        "pagePath": "pages/about/about",
+        "text": "关于我们"
+      }
+    ]
+  }
+}

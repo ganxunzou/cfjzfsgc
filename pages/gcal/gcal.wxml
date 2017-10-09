@@ -1,0 +1,6 @@
+<view class="gcal">
+  <view class='al' wx:for="{{allist}}" wx:for-item="al" wx:key="key">
+    <image mode='aspectFill' class='al-img' src='{{al.imgs}}'></image>
+    <text class='al-name'>{{al.label}}</text>
+  </view>
+</view>

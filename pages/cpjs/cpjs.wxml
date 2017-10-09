@@ -1,0 +1,12 @@
+<view class="cpjs">
+  <text class='wmfs'>屋面防水</text>
+  <view class='c-container' wx:for="{{cplist}}" wx:for-item="category" wx:key="key">
+   <text class='c-title' style='background-color:{{category.tBgColor}}'>{{category.label}} </text>
+    <view class='cp-contaienr'>
+        <view class="cp" wx:for="{{category.data}}" wx:for-item="cp" wx:key="key">
+        <image mode='scaleToFill' class='img' src=' {{cp.imgs}}' bindtap='imgClickHandler' data-cp="{{cp}}"></image>   
+      <text class='text'>{{cp.label}}</text>
+      </view>
+      </view>
+  </view>
+</view>

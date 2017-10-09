@@ -1,0 +1,55 @@
+.ylcp
+{
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: column;
+}
+.bt{
+  box-sizing: border-box;
+  margin: 20rpx;
+  padding: 20rpx;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #2AA11E;
+  border-radius: 120rpx;
+}
+.img-container
+{
+  position: relative; 
+  height: 800rpx;
+}
+.img{
+  width: 60%;
+  height:500rpx;
+  /* position: absolute; */
+}
+.yyfw{
+   position: absolute;
+   top: 0;
+   right: 20rpx;
+}
+.tx{
+   position: absolute;
+   top: 220rpx;
+   right: 20rpx;
+}
+.pzjy{
+   top: 500rpx;
+   right: 20rpx;
+   position: absolute;
+}
+.title{
+  color:#f00;
+  font-size: 34rpx;
+}
+.desc{
+  color: #333;
+  font-size: 28rpx;
+}
+
+.sm{
+  margin:0 30rpx;
+  height: 80rpx;
+  color: #333;
+  font-size: 28rpx;
+}

@@ -1,0 +1,23 @@
+<view class="about">
+  <view class='map-view'>
+   <map id="map" class='map' longitude="121.429080" latitude="31.167800" scale="18" markers="{{markers}}" show-location ></map>
+    <text class='map-text'>上海市漕宝路1685弄68号</text>
+    <button class='map-button' bindtap="openMap1">一键导航</button>
+  </view>
+
+  <view  class='map-view'>
+    <map id="map2" class='map' longitude="121.269740" latitude="31.206110"  markers="{{markers2}}" show-location ></map>
+    <text class='map-text'>上海市北青公路1978号</text>
+    <button class='map-button'  bindtap="openMap2">一键导航</button>
+  </view>
+  <view class='about-info'>
+    <text class='text-info'>联系人：柳先生</text>
+    <view class='text-info' bindtap='callPhone'>
+      <text>手机：</text>
+      <text class='text-phone'>13701687832</text>
+    </view>
+    <text class='text-info'>邮箱：shdulou@163.com</text>
+    <text class='text-info'>网址：www.fangshuigs.com</text>
+  </view>
+  <text class='text-wz'></text>
+</view>

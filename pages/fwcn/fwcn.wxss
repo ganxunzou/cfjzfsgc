@@ -1,0 +1,40 @@
+/* pages/fwcn/fwcn.wxss */
+/* pages/about/about.wxss */
+.fwcn{
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+}
+.fwcn-container{
+  background-color: #fff;
+  padding: 20rpx;
+  margin: 15rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 30rpx;
+  color: #333;
+  min-height: 70rpx;
+}
+.icon-contaier{
+  /* position: relative; */
+  width: 70rpx;
+  height: 100%;
+}
+.icon-img{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+}
+.icon-text{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  text-align: center;
+  padding-top: 6rpx;
+  color: #fff;
+  font-size: 26rpx;
+}
+.fwcn-text{
+  flex: 1;
+}

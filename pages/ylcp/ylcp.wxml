@@ -1,0 +1,25 @@
+<view class="ylcp">
+  <text class='bt'>纳米双组份凝胶（免砸砖）卫生间防水剂</text>
+  <view class='img-container'>
+    <image mode='aspectFit' class='img' src='../../imgs/ylcp.png'></image>
+    <view class='yyfw'>
+      <text class='title'>应用范围：</text>
+      <text class='desc'>
+        ※ 卫生间 \n ※ 厨房间 \n ※ 露台等持续潮湿基础面
+      </text>
+    </view>
+    <view class='tx'>
+      <text class='title'>特性：</text>
+      <text class='desc'>
+        ※ 黏度低可灌性好 \n ※ 凝胶时间可控制 \n ※ 抗渗性能好 \n ※ 耐久性  \n ※ 吸水膨胀
+      </text>
+    </view>
+    <view class='pzjy'>
+      <text class='title'>配置浆液要求：</text>
+      <text class='desc'>
+        ※ 请采用塑料·搪瓷或者陶瓷容器 \n ※ 请使用自来水配置浆液，并确保洁净 \n ※ 宜选用20摄氏度左右的温水
+      </text>
+    </view>
+  </view>
+  <text class='sm'>本产品因施工简便，防水效果明显持久，经济实用，深受广大用户喜爱</text>
+</view>

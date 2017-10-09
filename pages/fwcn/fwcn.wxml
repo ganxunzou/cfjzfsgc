@@ -1,0 +1,9 @@
+<view class="fwcn">
+  <view class="fwcn-container" wx:for="{{fwlist}}" wx:for-item="fwcn" key="key">
+    <view class='icon-contaier'>
+      <image class='icon-img' src='../../imgs/fwcn-logo.jpg'></image>
+      <text class='icon-text'>{{index}}</text>
+    </view>
+    <text class='fwcn-text'>{{fwcn.label}}</text>
+  </view>
+</view>
